@@ -1,0 +1,84 @@
+/* =========================================
+   Task 1: Links
+   ========================================= */
+.link-block {
+    display: block;              /* Display as a block */
+    padding: 18px;               /* Padding */
+    text-align: center;          /* Text center */
+    margin: 0;                   /* No gap between bars */
+}
+
+/* Fixed Background Colors for Each Link */
+#link1 {
+    background-color: #a8f0b8;   /* Light green */
+}
+
+#link2 {
+    background-color: #555555;   /* Dark gray */
+}
+
+#link3 {
+    background-color: #000000;   /* Black */
+}
+
+/* 1. Unvisited State (:link) - Initial Text Colors */
+#link1:link {
+    color: red;
+}
+
+#link2:link {
+    color: yellow;
+}
+
+#link3:link {
+    color: white;
+}
+
+/* 2. Visited State (:visited) - Changes ONLY text color */
+#link1:visited, #link2:visited, #link3:visited {
+    color: violet;
+}
+
+/* 3. Hover State (:hover) - Changes ONLY text color */
+#link1:hover, #link2:hover, #link3:hover {
+    color: cyan;
+}
+
+/* 4. Active State (:active) - Changes ONLY text color when clicked */
+#link1:active, #link2:active, #link3:active {
+    color: orange;
+}
+/* 5. Specific ID styling for Link 3 */
+#link-three {
+    background-color: black; 
+    color: white;              
+}
+/* =========================================
+   Task 2: Heading Background
+   ========================================= */
+.format-heading {
+    background-color: #e5e5e5; /* Exact light gray block from the PDF */
+    padding: 10px;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* =========================================
+   Task 4: Tables
+   ========================================= */
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

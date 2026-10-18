@@ -8,7 +8,7 @@ def index(request):
 def index2(request, val1=0): 
     return HttpResponse("value1 = " + str(val1))
 
-def viewbook(request, bookId):
+##def viewbook(request, bookId):
     # assume that we have the following books somewhere (e.g. database)
     book1 = {'id': 123, 'title': 'Continuous Delivery', 'author': 'J. Humble and D. Farley'}
     book2 = {'id': 456, 'title': 'Secrets of Reverse Engineering', 'author': 'E. Eilam'}
@@ -33,3 +33,15 @@ def viewbook (request, bookId):
 
 def aboutus (request):
     return render (request, 'bookmodule/aboutus.html')
+
+def links_view(request):
+    return render(request, 'bookmodule/links.html')
+
+def formatting_view(request):
+    return render(request, 'bookmodule/formatting.html')
+
+def listing_view(request):
+    return render(request, 'bookmodule/listing.html')
+
+def tables_view(request):
+    return render(request, 'bookmodule/tables.html')
