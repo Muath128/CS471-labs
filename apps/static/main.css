@@ -57,7 +57,7 @@
    Task 2: Heading Background
    ========================================= */
 .format-heading {
-    background-color: #e5e5e5; /* Exact light gray block from the PDF */
+    background-color: #e5e5e5; 
     padding: 10px;
     color: black;
     font-family: Arial, sans-serif;
